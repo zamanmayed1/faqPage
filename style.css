@@ -1,0 +1,99 @@
+body {
+  background-color: aliceblue;
+}
+.queBox {
+  width: 60%;
+  height: 550px;
+  margin: auto;
+  margin-top: 25px;
+  background-color: white;
+  padding: 10px;
+}
+.que {
+  padding: 5px 25px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.ans {
+  margin-top: 10px;
+  padding: 5px 25px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.ans2 {
+  margin-top: 10px;
+  padding: 5px 25px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.plus {
+  font-weight: bolder;
+  padding: 2px 1px;
+}
+
+.minus {
+  font-weight: bolder;
+  padding: 2px 1px;
+  display: none;
+}
+
+.faqHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: blue;
+}
+#expandAll {
+  color: blue;
+  background-color: antiquewhite;
+  padding: 10px 10px;
+  border-radius: 26px;
+}
+#collapsAll {
+  display: none;
+  color: blue;
+  background-color: antiquewhite;
+  padding: 10px 10px;
+  border-radius: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: aliceblue;
+  }
+  .queBox {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: aliceblue;
+  }
+  .queBox {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .queBox {
+    width: 60%;
+    height: 550px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px;
+  }
+}
